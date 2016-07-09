@@ -9,3 +9,4 @@ $ rm -f xx.txt //删除文件
 git command
 
 git log //查看提交历史
+git diff xx //查看两次提交/分支/文件差异
