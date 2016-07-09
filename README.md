@@ -10,3 +10,6 @@ git command
 
 git log //查看提交历史
 git diff xx //查看两次提交/分支/文件差异
+
+git is a distributed version control system
+git is free sofeware distributed under the GPL
