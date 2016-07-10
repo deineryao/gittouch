@@ -32,3 +32,7 @@ git reset -- hard HEAD^版本回退
 创建+切换分支：git checkout -b <name>
 合并某分支到当前分支：git merge <name>
 删除分支：git branch -d <name>
+
+git stash 把当前工作现场“储藏”起来，等以后恢复现场后继续工作
+git stash list 查看工作现场
+git stash pop 回到工作现场
