@@ -14,6 +14,7 @@ git reset --hard HEAD^ //回退到上个版本
 git reset --hard c9cec01 //回退到指定版本（通过git log 获取版本id前7位）
 git reflog //记录每一次命令，可以找到删除的版本
 git log --graph --pretty=oneline --abbrev-commit //查看分支合并情况
+git log --graph //查看分支合并图
 
 情况分为三种
 1.修改之后未add
