@@ -9,9 +9,7 @@ $ rm -f xx.txt //删除文件
 git command
 
 git log //查看提交历史
-git diff xx //查看两次提交/分支/文件差异
+git diff xx //查看两次提交/分支/文件差异 改动保存后未提交也可对比改动变化
 git reset --hard HEAD^ //回退到上个版本
 git reset --hard c9cec01 //回退到指定版本（通过git log 获取版本id前7位）
 git reflog //记录每一次命令，可以找到删除的版本
-
-暂缓区和工作区
