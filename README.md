@@ -22,3 +22,11 @@ git reflog //记录每一次命令，可以找到删除的版本
 后git checkout -- readme.txt(撤销工作区的修改)
 3.commit之后
 git reset -- hard HEAD^版本回退
+
+
+查看分支：git branch
+创建分支：git branch <name>
+切换分支：git checkout <name>
+创建+切换分支：git checkout -b <name>
+合并某分支到当前分支：git merge <name>
+删除分支：git branch -d <name>
