@@ -15,3 +15,4 @@ git log //查看提交历史 git diff xx //查看两次提交/分支/文件差�
 git stash 把当前工作现场“储藏”起来，等以后恢复现场后继续工作 git stash list 查看工作现场 git stash pop 回到工作现场
 
 
+2016-10-24 15:56:01 啊哈，我是发布版的一个bug，我被修复啦
